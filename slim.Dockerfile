@@ -1,4 +1,4 @@
-FROM node:20.3.0-slim
+FROM node:20.12.2-slim
 
 RUN apt-get update
 RUN apt-get install -y imagemagick
